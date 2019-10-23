@@ -5,10 +5,10 @@ Versioning Demo - Maven Release
 
 ### Build the maven package
 ```
-mvn package
+mvn clean package
 ```
 
 ### Test
 ```
-java -jar target/mvn-version-demo-1.0-SNAPSHOT-jar-with-dependencies.jar
+java -jar target/mvn-version-demo-*-SNAPSHOT-jar-with-dependencies.jar
 ```
