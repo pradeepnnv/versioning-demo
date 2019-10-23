@@ -12,3 +12,13 @@ mvn clean package
 ```
 java -jar target/mvn-version-demo-*-SNAPSHOT-jar-with-dependencies.jar
 ```
+
+### Maven Release start
+```
+mvn release:prepare
+```
+
+### Maven Release finish
+```
+mvn release:perform
+```
