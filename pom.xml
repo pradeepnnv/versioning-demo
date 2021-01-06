@@ -77,8 +77,6 @@
                   <releaseBranchPrefix>release/</releaseBranchPrefix>
                   <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
                 </flowInitContext>
-                <username>${git.user}</username>
-                <password>${git.password}</password>
               </configuration>
             </plugin>
           </plugins>
