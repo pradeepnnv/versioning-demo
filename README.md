@@ -15,7 +15,7 @@ java -jar target/mvn-version-demo-*-SNAPSHOT-jar-with-dependencies.jar
 
 ### Maven Release start
 ```
-mvn release:prepare
+mvn jgitflow:release-start -DpushReleases=true -DreleaseVersion=1.3 -DdevelopmentVersion=1.3
 ```
 
 ### Maven Release finish
