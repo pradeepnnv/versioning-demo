@@ -3,7 +3,7 @@
   <groupId>com.pradeepnnv.version-demo.mvn</groupId>
   <artifactId>mvn-version-demo</artifactId>
   <packaging>jar</packaging>
-  <version>1.5-SNAPSHOT</version>
+  <version>1.4</version>
   <name>mvn-version-demo</name>
   <url>http://maven.apache.org</url>
 
