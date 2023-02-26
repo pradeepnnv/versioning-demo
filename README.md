@@ -20,5 +20,5 @@ mvn jgitflow:release-start -DpushReleases=true -DreleaseVersion=1.3 -Ddevelopmen
 
 ### Maven Release finish
 ```
-mvn release:perform
+mvn  jgitflow:release-finish -DnoReleaseBuild=true -DpushReleases=true
 ```
